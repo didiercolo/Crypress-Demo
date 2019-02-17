@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress": "cypress open",
-    "cypress-run-all":"cypress run --record --key 8a44faa5-9303-48ad-a5a5-9db985ba0f20"
+    "cypress-run-all": "cypress run --record --key 8a44faa5-9303-48ad-a5a5-9db985ba0f20 --browser chrome"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,10 @@
   "homepage": "https://github.com/didiercolo/Crypress-Demo#readme",
   "dependencies": {
     "cypress": "^3.1.5"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-cypress": "^2.2.0"
   }
 }
